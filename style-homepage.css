@@ -75,8 +75,16 @@ button {
   margin: 4px;
 }
 
-footer .coded-by {
+footer #code-link {
   color: rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+}
+
+footer #code-link:hover {
+  text-decoration: underline;
+}
+
+footer .coded-by {
   letter-spacing: 4px;
   position: relative;
   top: 20px;
