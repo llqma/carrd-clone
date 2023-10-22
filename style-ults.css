@@ -53,6 +53,27 @@ hr {
 
 }
 
+footer .icons {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  gap: 10px;
+}
+
+footer .home-icon,
+.arrow-left,
+.arrow-right {
+  display: block;
+  margin: 30px auto 10px;
+  opacity: 60%;
+}
+
+.arrow-right,
+.arrow-left {
+  width: 25px;
+  height: 25px;
+}
+
 footer #code-link {
   color: rgba(0, 0, 0, 0.5);
   text-decoration: none;
