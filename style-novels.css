@@ -12,13 +12,6 @@ body {
   padding: 0;
 }
 
-hr {
-  color: #fff;
-  margin: 10px auto 30px;
-  width: 30em;
-  opacity: 50%;
-}
-
 .wrapper {
   display: flex;
   justify-content: center;
@@ -27,14 +20,18 @@ hr {
 }
 
 .main {
-  height: 50vh;
+  display: flex;
+  justify-content: center;
+  gap: 8em;
   background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
   background-size: cover;
   width: 100%;
   text-align: center;
+  padding: 50px;
 }
 
-.homepage-img {
+.right, 
+.left {
   border-radius: 50%;
   display: block;
   margin: 40px auto;
@@ -42,15 +39,33 @@ hr {
   width: 250px;
 }
 
-.heading {
+h1, h2 {
   color: rgba(0, 0, 0, 0.6);
-  font-size: 26px;
-  font-weight: 300;
+  font-size: 18px;
+  font-weight: 600;
   text-align: center;
   text-transform: uppercase;
   position: relative;
+  bottom: 10px;
+  letter-spacing: 5px;
+}
+
+h1 {
+  font-size: 22px;
+  position: relative;
   bottom: 20px;
 
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul li{
+  margin: 5px;
+  list-style-image: url(./icons/arrow_forward_right.svg);
+  list-style-position: inside;
 }
 
 footer .icons {
