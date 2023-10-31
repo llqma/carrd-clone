@@ -27,7 +27,6 @@ hr {
 }
 
 .main {
-  height: 50vh;
   background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
   background-size: cover;
   width: 100%;
@@ -105,4 +104,51 @@ footer .coded-by {
   letter-spacing: 4px;
   position: relative;
   top: 20px;
+}
+
+/* ========== RESPONSIVE LAYOUT ========== */
+
+@media screen and (max-width: 600px) and (min-width: 0) {
+
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+  }
+
+  hr {
+    width: 12em;
+    margin: 0 auto;
+    position: relative;
+    bottom: 18px;
+  }
+
+  .homepage-img {
+    height: 170px;
+    width: 190px;
+  }
+
+  .heading {
+    bottom: 25px;
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  .button {
+  font-size: 12px;
+  letter-spacing: 3px;
+  width: 18rem;
+  height: 2.5rem;
+  line-height: 2.25rem;
+  padding-top: 4px;
+  position: relative;
+  right: 10px;
+}
+
+footer .coded-by {
+  font-size: 14px;
+}
 }
