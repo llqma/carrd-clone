@@ -127,6 +127,11 @@ footer .coded-by {
     font-size: 18px;
   }
 
+  .likes-section {
+    position: relative;
+    top: 10px;
+  }
+
   .about-img {
     height: 120px;
     width: 130px;
@@ -139,9 +144,6 @@ footer .coded-by {
   ul > li {
     font-size: 14px;
   }
-
-  
-
 
   footer .coded-by {
   font-size: 14px;

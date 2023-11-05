@@ -27,7 +27,7 @@ h1 {
   display: flex;
   justify-content: center;
   gap: 8em;
-  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  background: linear-gradient(120deg, #D3B1B6 0%, #A4AADE 100%);
   background-size: cover;
   width: 100%;
   text-align: center;
@@ -108,4 +108,53 @@ footer .coded-by {
   letter-spacing: 4px;
   position: relative;
   top: 20px;
+}
+
+/* ========== RESPONSIVE LAYOUT ========== */
+
+@media screen and (max-width: 600px) and (min-width: 0) {
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+  }
+
+  .main {
+    gap: 2em;
+  }
+
+  h1 {
+    font-size: 18px;
+    bottom: 10px;
+  }
+
+  h2 {
+    bottom: 5px;
+    font-size: 18px;
+  }
+
+  .couples {
+    position: relative;
+    bottom: 50px;
+  }
+
+  .image {
+    height: 120px;
+    width: 130px;
+  }
+
+  .right {
+    bottom: 20px;
+  }
+
+  ul > li {
+    font-size: 14px;
+  }
+
+  footer .coded-by {
+  font-size: 14px;
+}
 }
