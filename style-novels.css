@@ -143,6 +143,10 @@ footer .coded-by {
     bottom: 50px;
   }
 
+  .reading-list > h2 {
+    text-align: right;
+  }
+
   .reading-list > ul > li {
     position: relative;
     left: 10px;
