@@ -105,3 +105,45 @@ footer .coded-by {
   position: relative;
   top: 20px;
 }
+
+/* ========== RESPONSIVE LAYOUT ========== */
+
+@media screen and (max-width: 600px) and (min-width: 0) {
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+  }
+
+  .main {
+    gap: 2em;
+  }
+
+  h2 {
+    bottom: 5px;
+    font-size: 18px;
+  }
+
+  .about-img {
+    height: 120px;
+    width: 130px;
+  }
+
+  .right {
+    bottom: 20px;
+  }
+
+  ul > li {
+    font-size: 14px;
+  }
+
+  
+
+
+  footer .coded-by {
+  font-size: 14px;
+}
+}

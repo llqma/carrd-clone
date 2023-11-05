@@ -17,6 +17,8 @@ hr {
   margin: 10px auto 30px;
   width: 30em;
   opacity: 50%;
+  position: relative;
+  bottom: 15px;
 }
 
 .wrapper {
@@ -49,6 +51,7 @@ h2 {
   text-transform: uppercase;
   position: relative;
   bottom: 20px;
+  letter-spacing: 5px;
 
 }
 
@@ -97,4 +100,58 @@ footer .coded-by {
   letter-spacing: 4px;
   position: relative;
   top: 20px;
+}
+
+/* ========== RESPONSIVE LAYOUT ========== */
+
+@media screen and (max-width: 600px) and (min-width: 0) {
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 10%;
+  }
+
+  .main {
+    padding-bottom: 0;
+
+  }
+
+  hr {
+    width: 12em;
+    margin: 0 auto;
+    position: relative;
+    bottom: 65px;
+  }
+
+  h2 {
+    font-size: 16px;
+    padding-top: 5px;
+  }
+
+ul {
+  margin-top: 15px;
+}
+
+ h2, ul > li {
+    position: relative;
+    bottom: 50px;
+  }
+
+ul > li {
+  line-height: 1.5;
+}
+
+footer .coded-by {
+  font-size: 14px;
+}
+
+}
+
+@media screen and (max-width: 375px) {
+  body {
+    margin-top: 40%;
+  }
 }
