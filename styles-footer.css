@@ -1,0 +1,77 @@
+/* ========== FOOTER ICONS ========== */
+
+footer .icons {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  gap: 10px;
+}
+
+footer .home-icon,
+.arrow-left,
+.arrow-right {
+  display: block;
+  margin: 30px auto 10px;
+  opacity: 60%;
+}
+
+.arrow-right,
+.arrow-left {
+  width: 25px;
+  height: 25px;
+}
+
+footer #code-link {
+  color: rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+}
+
+footer #code-link:hover {
+  text-decoration: underline;
+}
+
+footer .coded-by {
+  letter-spacing: 4px;
+  position: relative;
+  top: 10px;
+}
+
+/* ========== RESPONSIVE LAYOUT ========== */
+
+@media screen and (max-width: 600px) and (min-width: 0) {
+  footer .coded-by {
+    font-size: 13px;
+  }
+
+footer .icons {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  gap: 10px;
+  position: relative;
+  bottom: 10px;
+}
+
+.home-icon {
+  position: relative;
+  bottom: 4px;
+}
+
+.arrow-right,
+.arrow-left {
+  width: 20px;
+  height: 20px;
+}
+
+footer #code-link {
+  position: relative;
+  bottom: 25px;
+  color: rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+}
+
+footer #code-link:hover {
+  text-decoration: underline;
+}
+  
+}

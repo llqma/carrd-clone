@@ -68,40 +68,6 @@ ul li{
   list-style-position: inside;
 }
 
-footer .icons {
-  display: flex;
-  flex: 1;
-  justify-content: center;
-  gap: 10px;
-}
-
-footer .home-icon,
-.arrow-left {
-  display: block;
-  margin: 30px auto 10px;
-  opacity: 60%;
-}
-
-.arrow-left {
-  width: 25px;
-  height: 25px;
-}
-
-footer #code-link {
-  color: rgba(0, 0, 0, 0.5);
-  text-decoration: none;
-}
-
-footer #code-link:hover {
-  text-decoration: underline;
-}
-
-footer .coded-by {
-  letter-spacing: 4px;
-  position: relative;
-  top: 20px;
-}
-
 /* ========== RESPONSIVE LAYOUT ========== */
 
 @media screen and (max-width: 600px) and (min-width: 0) {
@@ -164,10 +130,6 @@ footer .coded-by {
   ul > li {
     font-size: 13px;
   }
-
-  footer .coded-by {
-  font-size: 14px;
-}
 }
 
 @media screen and (max-width: 375px) {
