@@ -143,11 +143,7 @@ footer .coded-by {
     bottom: 50px;
   }
 
-  .reading-list > h2 {
-    text-align: right;
-  }
-
-    .reading-list > ul > li {
+  .reading-list > ul > li {
     position: relative;
     left: 10px;
   }
@@ -168,4 +164,16 @@ footer .coded-by {
   footer .coded-by {
   font-size: 14px;
 }
+}
+
+@media screen and (max-width: 375px) {
+    .reading-list {
+    position: relative;
+    bottom: 50px;
+  }
+
+  .reading-list > ul > li {
+    position: relative;
+    left: 10px;
+  }
 }
